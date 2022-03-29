@@ -58,6 +58,18 @@ body {
     margin: 15px auto;
     border-radius: 42px;
 }
+.refresh {
+        font-size: 20px;
+    text-align: center;
+    background-color: #009688;
+    padding: 20px;
+    cursor: pointer;
+    color: white;
+    font-weight: bold;
+    width: fit-content;
+    margin: 15px auto;
+    border-radius: 42px;
+}
 
 .the-word {
     font-size: 60px;

@@ -41,6 +41,7 @@ let defaultLevelSeconds = lvls[defaultLevelName];
 
 // Catch Selectors 
 let startButton = document.querySelector(".start");
+let refreshButton = document.querySelector(".refresh");
 let lvlNameSpan = document.querySelector(".message .lvl");
 let secondsSpan = document.querySelector(".message .seconds");
 let theWord = document.querySelector(".the-word");
@@ -125,4 +126,8 @@ function startPlay () {
             }
         }
     }, 1000);
+}
+// Refresh Game 
+refreshButton.onclick = function reload() {
+    reload = location.reload();
 }
