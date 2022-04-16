@@ -23,7 +23,8 @@ const words = [
     "Programming",
     "Teacher",
     "Instagram",
-    "BreakFast"
+    "BreakFast",
+    "Hadia"
 ];
 
 // Settings Levels
